@@ -1,8 +1,10 @@
+import Heading from './re_usable';
+
 // components/Deposit.tsx
 const Deposit = () => {
    return (
       <div>
-         <h1 className="text-2xl font-bold">Deposit</h1>
+         <Heading title="Deposit" />
          <p>Welcome to the Deposit!</p>
       </div>
    );

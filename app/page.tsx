@@ -39,10 +39,8 @@ export default function Home() {
 
    return (
       <div className="flex">
-         {/* Pass selectedMenu and setSelectedMenu to SideBar */}
          <SideBar activeMenu={selectedMenu} setActiveMenu={setSelectedMenu} />
-         {/* Render the content based on the selected menu */}
-         <main className="flex-1 p-8">{renderContent()}</main>
+         <main className="flex-1 ">{renderContent()}</main>
       </div>
    );
 }
